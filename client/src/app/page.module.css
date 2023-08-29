@@ -1,0 +1,75 @@
+.main {
+  width: 80vw;
+  padding: 40px 0;
+  margin: auto;
+}
+
+.main form {
+  margin: auto;
+  max-width: 600px;
+  height: 150px;
+  border-radius: 10px;
+  display: grid;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid rgb(223, 220, 220);
+}
+
+.main form input,
+.main form button {
+  border: 1px solid rgb(223, 220, 220);
+}
+
+.main form input {
+  padding: 0 10px;
+  font-size: 17px;
+}
+
+.main form button {
+  cursor: pointer;
+}
+
+.main form input:focus {
+  border: 1px solid black;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+}
+
+.card div {
+  height: 46%;
+  width: 100%;
+  background-color: rgb(213, 220, 227);
+}
+
+.card p {
+  padding: 6px 20px;
+  font-size: 15px;
+}
+
+.card button {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.addToCart {
+  background-color: greenyellow;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white !important;
+}
